@@ -15,7 +15,6 @@ from typing import Tuple, List
 # [0,0,1,1,2]
 
 # --------------------------------- Solution --------------------------------- #
-
 def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
     mono_stack: List[Tuple[int, int]] = []
     answer = [0] * len(temperatures)
